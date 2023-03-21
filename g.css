@@ -1,0 +1,110 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family;
+}
+
+/* Header styles */
+header {
+    /* background-color: #333; */
+    background: linear-gradient(red,pink);
+    color: #fffffff3;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: yellow,white;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #666666;
+}
+
+/* Banner styles */
+#banner {
+    background-image: url('https://plus.unsplash.com/premium_photo-1661265933107-85a5dbd815af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+#banner h1 {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    
+    
+}
+
+#banner p {
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+div{
+    background-color: red,orange;
+    
+}
+h2{
+    background-color: red,olivedrab;
+}
+main{
+    background-color: red,yellow;
+}
+footer{
+    background:linear-gradient(pink)
+}
+#about{
+    background: linear-gradient(50deg, red,orange);
+    font-size: 40px;
+text-align: center;
+}
+#Membership button{
+    font-size: 35px;
+    background-color: black;
+    color: white;
+}
+#Membership button:hover{
+    background-color: white;
+    color: black;
+}
+#Aboutus{
+    text-align: center;
+    background:linear-gradient(red,orange);
+    font-size: 35px;
+}
+.trainers img{
+    align-items: center;
+    width: 300px;
+border: #ffffff;
+}
+    
+
+.dt{
+    font-size: 40px;
+    color: blue;
+}

@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    background:linear-gradient(orange,red);
+  }
+  #workouts{
+    background:linear-gradient(red,orange,yellow);
+    text-align: center;
+    font-size: 35px;
+
+  }
+ 
+ #about{
+  background:linear-gradient(red,orange,yellow);
+  font-size: 35px;
+  
+ }
+ img{
+  align-items: center;
+  max-width: 600px;
+
+ }
+ 
